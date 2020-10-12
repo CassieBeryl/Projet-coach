@@ -1,0 +1,157 @@
+
+body{
+font-family: 'Catamaran', sans-serif;
+-webkit-print-color-adjust: exact;
+}
+
+ul,
+img,
+.card-sit,
+main header,
+.bloc{
+page-break-inside: avoid;
+}
+
+#header,
+.main-footer,
+.social-share,
+.footer-single,
+header .no-photo,
+.bloc-pagination,
+#tarteaucitronRoot{
+display: none;
+}
+
+
+#breadcrumbs{
+padding-left: 0;
+}
+
+#breadcrumbs li{
+display: inline-block;
+list-style: none;
+}
+
+main header.fullpage-header figure{
+max-height: 450px;
+}
+
+#header + main {
+margin-top: 0;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots{
+display: none;
+}
+
+
+.single-apidae .info-content .basic-link:after{
+content:" (" attr(href) ") ";
+font-size:0.8em;font-weight:normal;
+background: transparent;
+}
+
+.single-apidae .info-content > div p:last-of-type{
+display: none
+}
+
+.single-apidae .info-content > div p:nth-last-of-type(2){
+margin-bottom:0
+}
+
+.single-apidae .right-sit{
+position: absolute;
+top: -390px;
+right: 0;
+}
+
+
+.single-apidae .btn-gallery,
+.single-apidae .add_panier,
+.single-apidae .a_partir_de,
+.single-apidae .btn-itineraire,
+.single-apidae .social-share,
+.single-apidae .bloc-download,
+.single-apidae .maps{
+display: none;
+}
+
+.single-apidae .description,
+.single-apidae .info-content,
+.single-apidae .details,
+.single-apidae .detail-info{
+page-break-inside: avoid;
+}
+
+.single-apidae .header{
+padding-top: 0;
+padding-bottom: 20px;
+}
+
+.single-apidae .picture-wrapper{
+margin-bottom: 0;
+}
+
+.single-apidae .heading-picture .owl-carousel{
+max-height: 350px;
+overflow: hidden;
+width: 60%;
+}
+.single-apidae .heading-picture .owl-carousel:after{
+content: none;
+}
+
+.single-apidae .content-sit .details:before{
+content: none;
+}
+
+.single-apidae .content-sit .details{
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.single-apidae .info-content a{
+display: block;
+}
+
+
+.page-listing-sit{
+padding-top: 0;
+}
+
+.page-listing-sit .header figure{
+height: 350px;
+}
+
+.page-listing-sit #facettes,
+.page-listing-sit .listing-map,
+.page-listing-sit .listing-actions,
+.page-listing-sit input{
+display: none;
+}
+
+.page-listing-blog .facettes-blog {
+display: none;
+}
+
+.page-listing-sit .card-sit {
+float: left!important;
+}
+
+.page-listing-sit .card-sit:nth-child(n+2) {
+margin-top: 0!important;
+}
+
+.page-listing-sit .card-sit:nth-child(2n+1){
+clear: both;
+}
+
+.page-listing-sit .wrapper-card-actions {
+padding-left: 35px;
+}
+
+.card-sit{
+max-width: 50%;
+float: left;
+}
